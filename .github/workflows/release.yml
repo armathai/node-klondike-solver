@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "14.x"
-          registry-url: "https://registryX.npmjs.org"
+          registry-url: "https://registry.npmjs.org"
       - run: git submodule update --init
       - run: npm install
       - run: npm publish --access public
