@@ -1,0 +1,3 @@
+[submodule "Klondike-Solver"]
+	path = Klondike-Solver
+	url = https://github.com/ShootMe/Klondike-Solver.git
